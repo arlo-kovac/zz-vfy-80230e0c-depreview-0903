@@ -11,3 +11,4 @@ jobs:
       - uses: actions/dependency-review-action@v4
         with:
           fail-on-severity: low
+          deny-packages: pkg:npm/minimist@1.2.5
